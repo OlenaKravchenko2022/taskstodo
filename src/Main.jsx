@@ -33,7 +33,7 @@ function Main() {
     }
   };
 
-  const date = new Date();
+  //const date = new Date();
   const monthNames = [
     "January",
     "Febrary",
@@ -48,15 +48,15 @@ function Main() {
     "November",
     "December",
   ];
-  const month = monthNames[date.getMonth()];
-  const day = date.getDate();
-  const year = date.getFullYear();
+  //const month = monthNames[date.getMonth()];
+  //const day = date.getDate();
+  //const year = date.getFullYear();
 
   return (
     <div className="container">
       <h1>Note your tasks</h1>
       <h2>Write it here</h2>
-      <span>{month + " " + day + "," + " " + year + " "}</span>
+      <span>{monthNames}</span>
       <div className="input-field">
         <input
           type="text"
